@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">Covid</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="hospitals">
+        <item>جراحات اليوم الواحد بالبساتين</item>
+        <item>جراحات اليوم الواحد بمدينة نصر</item>
+        <item>جراحات اليوم الواحد بالزاوية الحمراء</item>
+        <item>جراحات اليوم الواحد بالمرج</item>
+        <item>تأمين صحي المقـطم</item>
+        <item>تأمين صحي شبـرا</item>
+        <item>تأمين صحي النصر بحلوان</item>
+        <item>منشية البكري العام</item>
+        <item>المنيرة العام</item>
+        <item>حلوان العام</item>
+        <item>القاهرة الجديدة المركزي</item>
+        <item>مبرة المعادي</item>
+        <item>مبرة مصر القديمة</item>
+        <item>الإصلاح الإسلامي</item>
+        <item>شبرا العام</item>
+        <item>الخزندار العام</item>
+        <item>دار السلام العام</item>
+        <item>روض الفرج العام</item>
+        <item>عين شمس العام</item>
+        <item>الشروق المركزي</item>
+        <item>التبين المركزي</item>
+        <item>تأمين 6 أكتوبر</item>
+        <item>أم المصرين العام</item>
+        <item>الصف المركزي</item>
+        <item>الوارق المركزي</item>
+        <item>البدرشين العام</item>
+        <item>إمبابة العام</item>
+        <item>بولاق الدكرور العام</item>
+        <item>التحرير العام</item>
+        <item>أطفيح المركزي</item>
+        <item>العياط المركزي</item>
+        <item>أبوالنمرس المركزي</item>
+        <item>أوسيم المركزي</item>
+        <item>٦ أكتوبر المركزي</item>
+        <item>الواحات البحرية المركزي</item>
+        <item>الشيخ زايد المركزي</item>
+        <item>منشاة القناطر المركزي</item>
+        <item> صدر العياط</item>
+        <item>جمال عبدالناصـر</item>
+        <item>العامرية العام</item>
+        <item>أبوقير النموذجي</item>
+        <item>رأس التبين العام</item>
+        <item>الجمهورية العام</item>
+        <item>أبوقير المركزي</item>
+        <item>جمال حمادة المركزي</item>
+        <item>برج العرب المركزي</item>
+        <item>الصدر المعمورة</item>
+        <item>صدر كوم الشفاقة</item>
+        <item>حميات الإسكندرية</item>
+    </string-array>
+    <string name="map_key" translatable="false">AIzaSyB_qsP8AOP_P0MdlPz-48TDaJYjTP3vbjo</string>
+    <string name="link1"><a href="http://www.mohp.gov.eg">http://www.mohp.gov.eg </a></string>
+    <string name="link2"><a href="http://www.care.gov.eg">http://www.care.gov.eg</a> </string>
+    <string name="num1"><a href="http://www.mohp.gov.eg">105</a></string>
+    <string name="num2"><a href="http://www.care.gov.eg">15335</a> </string>
+
+
+</resources>

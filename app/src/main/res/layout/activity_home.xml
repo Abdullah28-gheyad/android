@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+           <RelativeLayout
+               android:id="@+id/question_content"
+               android:layout_width="250dp"
+               android:layout_height="250dp"
+               android:layout_centerHorizontal="true"
+               android:layout_marginTop="10dp"
+               android:padding="10dp"
+               android:background="@drawable/borders"
+               >
+               <TextView
+                   android:id="@+id/question"
+                   android:layout_centerInParent="true"
+                   android:textSize="20dp"
+                   android:text="هل درجه حرارتك أعلي من 38 أم أقل ؟"
+                   android:layout_width="wrap_content"
+                   android:layout_margin="10dp"
+                   android:layout_height="wrap_content"/>
+
+           </RelativeLayout>
+           <RadioGroup
+               android:id="@+id/radio_group"
+               android:layout_centerHorizontal="true"
+               android:layout_margin="5dp"
+               android:layout_below="@id/question_content"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+
+               >
+
+               <RadioButton
+                   android:id="@+id/radioButton"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="أعلي" />
+
+               <RadioButton
+                   android:id="@+id/radioButton2"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="أقل" />
+           </RadioGroup>
+            <Button
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/next"
+                android:text="التالي"
+                android:textSize="20dp"
+                android:background="@drawable/buttons"
+                android:layout_below="@id/radio_group"
+                android:layout_centerHorizontal="true"
+                app:backgroundTint="#147C8F"
+                />
+       </RelativeLayout>
+   </ScrollView>
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bottom_navigation"
+        app:itemBackground="@color/teal_700"
+        app:itemTextColor="@drawable/selector"
+        app:itemIconTint="@drawable/selector"
+        app:menu="@menu/menu_navigation"
+        android:layout_alignParentBottom="true"
+
+        />
+
+</RelativeLayout>

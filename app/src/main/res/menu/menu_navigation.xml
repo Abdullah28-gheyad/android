@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/dashboard"
+        android:title="المستشفيات"
+        android:icon="@drawable/home"
+       />
+    <item
+        android:id="@+id/Home_"
+        android:title="أبلاغ"
+        android:icon="@drawable/report"
+        />
+    <item
+        android:id="@+id/about"
+        android:title="المزيد"
+        android:icon="@drawable/info"
+       />
+    <item
+        android:id="@+id/Articles_"
+        android:title="مقالات"
+        android:icon="@drawable/maqalat"
+        />
+    <item
+        android:id="@+id/phone_important"
+        android:title="أرقام تهمك"
+        android:icon="@android:drawable/ic_menu_call"
+        />
+
+</menu>
